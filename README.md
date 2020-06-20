@@ -1,5 +1,7 @@
 # Gatsby Typescript Markdown Starter Template
 
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40caelin_sutch)](https://twitter.com/caelin_sutch)
+
 Easy to use GatsbyJS template built from Typescript and Markdown. Easy to use project or blog template with individual markdown posts, images, and filterable categories all built in!
 
 ## Features
@@ -13,7 +15,10 @@ Easy to use GatsbyJS template built from Typescript and Markdown. Easy to use pr
 - Easy to understand product structure
 - CSS in JS with Emotion
 - Sass stylesheets
-- React Helmet for SEO best practices
+- React Helmet for SEO best practices and metatags
+- SEO optimized
+- Projects page, categories, home, 404 page
+- Responsive
 
 ## Structure
 ```text
@@ -46,3 +51,6 @@ Do the following items to customize the website:
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+
+## Questions, comments, want to contribute? 
+File an issue or [tweet at me](https://twitter.com/caelin_sutch)

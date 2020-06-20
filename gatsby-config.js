@@ -11,7 +11,6 @@ module.exports = {
     'MarkdownRemark.frontmatter.categories': 'CategoriesYaml',
   },
   plugins: [
-    'gatsby-plugin-sitemap',
     'gatsby-transformer-yaml',
     'gatsby-plugin-sass',
     {

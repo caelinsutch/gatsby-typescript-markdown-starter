@@ -23,7 +23,7 @@ display: flex;
 
 const FooterAuthor = styled('a')`
     font-size: 0.75em;
-    color: ${colors.grey700};
+    color: ${colors.grey900};
     display: flex;
     flex-direction: column;
     align-items: center;

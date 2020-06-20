@@ -1,0 +1,35 @@
+import React from 'react';
+import Img, { FluidObject } from 'gatsby-image';
+import { CardBlurb, CardContainer, CardContent, CardTitle, ProjectCardAction } from './styles/card';
+
+interface props {
+  title: string;
+  description: string;
+  link: string;
+  image?: FluidObject;
+}
+
+const CategoryCard: React.FC<props> = ({ title, description, image }) => {
+  return (
+    <CardContainer to="/projects" state={{ defaultFilter: title }}>
+      <CardContent>
+        <CardTitle>
+          {title}
+        </CardTitle>
+        <CardBlurb>
+          {description}
+        </CardBlurb>
+        <ProjectCardAction className="ProjectCardAction">
+          See {title} projects<span>&#8594;</span>
+        </ProjectCardAction>
+      </CardContent>
+      {
+        image ?
+          <Img fluid={image} alt="Post Image"/> :
+          null
+      }
+    </CardContainer>
+  );
+};
+
+export default CategoryCard;

@@ -9,3 +9,8 @@ Easy to use GatsbyJS template built from Typescript and Markdown. Easy to use pr
 - Markdown posts
 - Categories based off a yaml file
 - Preconfigured with Gatsby Image
+- High Lighthouse Scores
+- Easy to understand product structure
+- CSS in JS with Emotion
+- Sass stylesheets
+- React Helmet for SEO best practices

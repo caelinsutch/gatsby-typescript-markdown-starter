@@ -1,11 +1,11 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Open Source for Civil Rights',
-    description: 'Bringing developers together to contribute to the civil rights movement',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    title: 'Site Title',
+    description: 'Site Description',
+    siteUrl: 'https://example.com',
   },
   mapping: {
     'MarkdownRemark.frontmatter.categories': 'CategoriesYaml',
@@ -51,13 +51,6 @@ module.exports = {
         ],
       },
     },
-    'gatsby-transformer-json',
-    {
-      resolve: 'gatsby-plugin-canonical-urls',
-      options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
-      },
-    },
     'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
     'gatsby-transformer-sharp',
@@ -66,14 +59,6 @@ module.exports = {
       resolve: 'gatsby-plugin-postcss',
       options: {
         postCssPlugins: [require('postcss-color-function'), require('cssnano')()],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: /assets/,
-        },
       },
     },
     {

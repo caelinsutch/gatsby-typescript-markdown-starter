@@ -71,10 +71,7 @@ const IndexLayout: React.FC = () => {
             <Helmet/>
             <Banner>
               <h1>
-                This is a fun portolio to showcase your <Link to="/projects">projects </Link>
-                and other things about you with the
-                <a href="https://opensource.org/osd"> open source </a>
-                framework <a href="https://www.gatsbyjs.org/">GatsbyJS</a>.
+                This is a fun portolio to showcase your <Link to="/projects">projects </Link> and other things about you with the <a href="https://opensource.org/osd"> open source </a> framework <a href="https://www.gatsbyjs.org/">GatsbyJS</a>.
               </h1>
             </Banner>
             <section>

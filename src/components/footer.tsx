@@ -2,7 +2,6 @@ import React from 'react';
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import styled from '@emotion/styled';
 import colors from '../styles/colors';
-import GatsbyImage from 'gatsby-image';
 
 const FooterContainer = styled('div')`
     padding-top: 3.75em;

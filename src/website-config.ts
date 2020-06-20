@@ -11,14 +11,14 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Website Title',
-  description: 'Website Description.',
+  title: 'Gatsby Typescript Markdown Starter',
+  description: 'Gatsby Typescript Markdown Starter',
   coverImage: 'assets/cover-card.png',
   logo: 'assets/main-logo.png',
   lang: 'en',
-  siteUrl: 'https://example.com',
-  facebook: 'https://www.facebook.com/example',
-  twitter: 'https://twitter.com/example',
+  siteUrl: 'https://gatsby-typescript-markdown-starter.vercel.app/',
+  facebook: 'https://www.facebook.com/caelinsutch',
+  twitter: 'https://twitter.com/caelin_sutch',
   googleSiteVerification: 'GoogleCode',
 };
 

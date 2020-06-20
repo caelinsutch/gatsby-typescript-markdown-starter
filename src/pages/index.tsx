@@ -85,7 +85,11 @@ const IndexLayout: React.FC = () => {
               </p>
               <h2>Easily Customized</h2>
               <p>
-                Follow the instructions in the Readme to easily customize this project!.
+                Checkout the <a href="https://github.com/caelinsutch/gatsby-typescript-markdown-starter">Github</a> for more information on how to customize this project.
+              </p>
+              <h2>Credits</h2>
+              <p>
+                Built by <a href="https://caelinsutch.com">Caelin Sutch</a>. Follow him on <a href="https://twitter.com/caelin_sutch">Twitter</a>
               </p>
             </section>
           </Layout>

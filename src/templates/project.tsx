@@ -4,9 +4,9 @@ import Layout from '../components/layout';
 import styled from '@emotion/styled';
 import GatsbyImage from 'gatsby-image';
 import colors from '../styles/colors';
-import { Helmet } from 'react-helmet';
 import config from '../website-config';
 import { Image } from '../interfaces';
+import HelmetDefault from '../components/helmet-default';
 
 const CardSubtitle = styled.p`
   color: grey;
@@ -71,36 +71,7 @@ const PageTemplate: React.FC<PostProps> = props => {
   const pageUrl = `${config.siteUrl}/${props.path}`;
   return (
     <>
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:site_name" content={config.title} />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content={pageUrl} />
-        <meta
-          property="og:image"
-          content={`${config.siteUrl}${props.data.markdownRemark.frontmatter.image.childImageSharp.fixed.src}`}
-        />
-        {config.facebook && (
-          <meta property="article:publisher" content={config.facebook} />
-        )}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:url" content={pageUrl} />
-        <meta
-          name="twitter:image"
-          content={`${config.siteUrl}${props.data.markdownRemark.frontmatter.image.childImageSharp.fixed.src}`}
-        />
-        {config.twitter && (
-          <meta
-            name="twitter:site"
-            content={`@${config.twitter.split('https://twitter.com/')[1]}`}
-          />
-        )}
-      </Helmet>
+      <HelmetDefault title={title} description={description} pageUrl={pageUrl} image={props.data.markdownRemark.frontmatter.image}/>
       <Layout>
         <h1>{props.data.markdownRemark.frontmatter.title}</h1>
         <h4>{props.data.markdownRemark.frontmatter.excerpt}</h4>

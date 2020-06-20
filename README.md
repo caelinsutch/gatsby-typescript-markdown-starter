@@ -6,7 +6,7 @@ Easy to use GatsbyJS template built from Typescript and Markdown. Easy to use pr
 - Eslint/Prettier configured
 - Easy to customize
 - Typescript pre configured
-- Markdown posts
+- Markdown posts with PrismJS code styling
 - Categories based off a yaml file
 - Preconfigured with Gatsby Image
 - High Lighthouse Scores
@@ -31,4 +31,18 @@ Easy to use GatsbyJS template built from Typescript and Markdown. Easy to use pr
 ```
 
 ## Getting Started
-Creat
+
+Create a new project by running `gatsby new gatsby-typescript-markdown-starter https://github.com/caelinsutch/gatsby-typescript-markdown-starter`. 
+
+Do the following items to customize the website:
+
+- Replace the favicon with your own
+- Edit the `website-config.ts` file to match your information
+- Edit the `gatsby-config.js` metadata section to match your information
+- Replace the `favicon.ico` file in the `static` folder
+- Replace `cover-card.png` and `main-logo.png` files in `src/content/assets`
+- Customize the categories in `categories.yaml`
+- Start adding projects in the `content` folder
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details

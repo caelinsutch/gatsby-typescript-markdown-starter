@@ -3,9 +3,9 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Site Title',
-    description: 'Site Description',
-    siteUrl: 'https://example.com',
+    title: 'Gatsby Typescript Markdown Starter',
+    description: 'Gatsby Typescript Markdown Starter',
+    siteUrl: 'https://gatsby-typescript-markdown-starter.vercel.app/',
   },
   mapping: {
     'MarkdownRemark.frontmatter.categories': 'CategoriesYaml',

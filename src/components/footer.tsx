@@ -53,11 +53,7 @@ const Footer = () => {
       logo: file(
         relativePath: { eq: "assets/main-logo.png" }
       ) {
-        childImageSharp {
-          fixed {
-            ...GatsbyImageSharpFixed
-          }
-        }
+        publicURL
       }
     }
   `);
@@ -65,9 +61,10 @@ const Footer = () => {
     <FooterContainer>
       <SocialContainer>
         <Link to="/">
-          <GatsbyImage
-            alt="logo" style={{ width: '10rem', height: '4rem' }} imgStyle={{ objectFit: 'contain' }}
-            fixed={data.logo.childImageSharp.fixed}/>
+          <img
+            alt="logo"
+            style={{ height: '5em' }}
+            src={data.logo.publicURL}/>
         </Link>
       </SocialContainer>
       <FooterAuthor href="https://caelinsutch.com">

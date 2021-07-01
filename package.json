@@ -55,7 +55,7 @@
   "devDependencies": {
     "@types/lodash": "4.14.170",
     "@types/node": "14.14.31",
-    "@types/react": "16.14.8",
+    "@types/react": "16.14.9",
     "@types/react-burger-menu": "2.8.0",
     "@types/react-dom": "16.9.13",
     "@types/react-helmet": "6.1.1",

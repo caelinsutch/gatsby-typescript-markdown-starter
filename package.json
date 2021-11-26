@@ -14,9 +14,9 @@
     "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
-    "@emotion/core": "10.1.1",
-    "@emotion/styled": "10.0.27",
-    "@emotion/styled-base": "10.0.31",
+    "@emotion/core": "10.3.0",
+    "@emotion/styled": "10.3.0",
+    "@emotion/styled-base": "10.3.0",
     "cssnano": "4.1.11",
     "date-fns": "2.26.0",
     "dotenv": "8.6.0",
